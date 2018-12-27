@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @GetMapping("/test")
     public  long test(){
+        System.out.println("test");
         return 200;
     }
 }
